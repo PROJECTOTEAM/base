@@ -1,0 +1,5 @@
+import xbmcaddon
+import base64
+
+MainBase = base64.b64decode ('aHR0cDovL3RlYW10dWdhNGV2ZXIubmV0MjMubmV0L0xJVkUlMjBTUE9SVFMvY21jdmMyMWtZbUZ6ZGpocUwyWmhibUZ5ZEM1cWNHYzhMMlpoYm1GeWRENEtQQzlwZEdWdFBnb2dDZ29LSUFvZ0NpQUtJQW84TDJsMFpXMXpQZz09LnhtbA==')
+addon = xbmcaddon.Addon('script.module.live.sports.addon')

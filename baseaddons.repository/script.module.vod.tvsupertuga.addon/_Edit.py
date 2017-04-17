@@ -1,0 +1,5 @@
+import xbmcaddon
+import base64
+
+MainBase = base64.b64decode ('aHR0cDovL3RlYW10dWdhNGV2ZXIubmV0MjMubmV0L3ZvZC9DanhwZEdWdFBnbzhkR2wwYkdVK1cwTlBURTlTSUdKc2RXVmRMbHREVDB4UFVpQnphM2xpYkhWbFhTNVBibVVnUTJoaGJtNWxiQ0JOYjNacFpYTmJMME5QVEU5U1hUd3ZkR2wwYkdqeHNhVzVyUG1oMGRIQTZMeTlwWjI1dmNtRXViV1U4TDJ4cGJqeGxlSC54bWw=')
+addon = xbmcaddon.Addon('script.module.vod.tvsupertuga.addon')
