@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="baseaddons.repository" name="BaseAddons" version="0.1" provider-name="TVsupertuga">
+<addon id="baseaddons.repository" name="BaseAddons" version="0.2" provider-name="TVsupertuga">
 	<extension point="xbmc.addon.repository" name="tvsupertuga Repository">
-		<info compressed="false">http://teamtuga4ever.net16.net/baseaddons.repository/addons.xml</info>
-		<checksum>http://teamtuga4ever.net16.net/baseaddons.repository/addons.xml.md5</checksum>
-		<datadir zip="true">http://teamtuga4ever.net16.net/baseaddons.repository/instal/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/PROJECTOTEAM/base/master/baseaddons.repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/PROJECTOTEAM/base/master/baseaddons.repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/PROJECTOTEAM/base/master/baseaddons.repository/instal/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>BaseAddons repository</summary>
@@ -846,7 +846,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="script.module.schism.addon"
        name="[COLOR cyan]TV[/COLOR]-[COLOR red]supertuga[/COLOR]"
-       version="2.1"
+       version="2.2"
        provider-name="TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
