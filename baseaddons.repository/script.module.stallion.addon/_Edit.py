@@ -1,5 +1,5 @@
 import xbmcaddon
 import base64
 
-MainBase = base64.b64decode ('aHR0cDovL3RlYW10dWdhNGV2ZXIubmV0MjMubmV0Ly1iYXNlNjQvWE5hSFIwY0hNNkx5OXdZWE4wWldKcGJpNWpiMjB2Y21GM0wwSmFSSEF6Y210bzBaV0pwYmk1amIyMHZjbUYzTDBKYVJIQXpjbXRvLnhtbA==')
+MainBase = base64.b64decode ('aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzBDa25wS3VF')
 addon = xbmcaddon.Addon('script.module.stallion.addon')
