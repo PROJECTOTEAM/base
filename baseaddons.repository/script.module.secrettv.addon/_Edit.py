@@ -1,0 +1,5 @@
+import xbmcaddon
+import base64
+
+MainBase = base64.b64decode ('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FERE9OQkFTRS9hZGRvbnNiYXNlL21hc3Rlci9kZnRnZmFmdmRlZnFMMlpoYm1GeWRDNXFjR2M4TDJaaGJtRnlkRDRLUEM5cGRHVnRQZ29nQ2dvS0lBb2dDaUFLSUFvOEwybDBaVzF6UGclM0QlM0QueG1s')
+addon = xbmcaddon.Addon('script.module.secrettv.addon')
