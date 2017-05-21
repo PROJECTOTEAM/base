@@ -1088,7 +1088,7 @@ provider-name="Team TVsupertuga">
 
 <addon id="script.module.stallion.addon"
        name="Stallion"
-       version="0.2"
+       version="0.3"
        provider-name="TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
