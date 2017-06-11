@@ -658,6 +658,26 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
+<addon id="script.module.Community.dl" name="[COLOR White]Project[/COLOR] [COLOR cyan]X[/COLOR] [COLOR White]Wizard[/COLOR]" version="0.1" provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.skinwizard" version="0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <facebookgrupo>https://www.facebook.com/TVsupertuga.PT/</facebookgrupo>
+    <email>tvsupertuga@gmail.com</email>
+    <forum>http://tvsupertuga.forum-gratuito.com/</forum>
+	<website>https://www.facebook.com/TVsupertuga.PT/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.creator"
 version="0.1"
 name="TVsupertuga INI Creator"
@@ -986,6 +1006,24 @@ provider-name="Team TVsupertuga">
   </extension>
 </addon>
 
+<addon id="script.module.projectx.wizard" name="[COLOR White]Project[/COLOR] [COLOR cyan]X[/COLOR] [COLOR White]Wizard[/COLOR]" version="1.0.0" provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.Community.dl" version="0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TVsupertuga Team Wizard</summary>
+    <description lang="en">TVsupertuga Team Wizard allows you to get access to the latest TVsupertuga Team Custom Builds and Add-ons.
+[CR]
+[CR]TVsupertuga Team Wizard permite-lhe ter acesso Ã s Ãºltimas Builds e Add-ons desenvolvidos pela TVsupertuga Team.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.pyxbmct"
    name="PyXBMCt"
    version="1.2.0"
@@ -1144,6 +1182,26 @@ provider-name="Team TVsupertuga">
     <license>MIT</license>
     <source>https://pypi.python.org/pypi/six</source>
     <website>https://pypi.python.org/pypi/six</website>
+  </extension>
+</addon>
+
+<addon id="script.module.skinwizard" name="[COLOR White]Project[/COLOR] [COLOR cyan]X[/COLOR] [COLOR White]Wizard[/COLOR]" version="0.1" provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="pt">TVsupertuga </summary>
+		<description lang="pt"></description>
+		<platform>all</platform>
+        <facebookgrupo>https://www.facebook.com/TVsupertuga.PT/</facebookgrupo>
+        <email>tvsupertuga@gmail.com</email>
+		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
+		<website>https://www.facebook.com/TVsupertuga.PT/</website>
+    <platform>all</platform>
   </extension>
 </addon>
 
