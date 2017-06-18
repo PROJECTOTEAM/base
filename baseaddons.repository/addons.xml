@@ -658,10 +658,11 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="script.module.Community.dl" name="[COLOR White]Project[/COLOR] [COLOR cyan]X[/COLOR] [COLOR White]Wizard[/COLOR]" version="0.1" provider-name="TVsupertuga">
+<addon id="script.module.Community.dl" name="[COLOR White]Project[/COLOR] [COLOR cyan]X[/COLOR] [COLOR White]Wizard[/COLOR]" version="0.2" provider-name="TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.skinwizard" version="0.1"/>
+	<import addon="service.addon_activador" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>all</provides>
