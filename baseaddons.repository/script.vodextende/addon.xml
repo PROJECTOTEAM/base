@@ -4,7 +4,8 @@
     <import addon="xbmc.python"                     version="2.19.0"/>
 	<import addon="baseaddons.repository"/>
     <import addon="script.module.vod.tvsupertuga.addon"/>
-    <import addon="plugin.video.youtube"/>
+    <import addon="plugin.video.metalliq"/>
+    <import addon="plugin.video.youtube"/>	
     <import addon="service.subtitles.tvsupertuga"/>
     <import addon="script.module.pil"/>
     <import addon="script.module.requests"/>
