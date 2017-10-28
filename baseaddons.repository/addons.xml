@@ -1573,7 +1573,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="script.module.vod.tvsupertuga.addon"
        name="VOD TVsupertuga"
-       version="0.5"
+       version="0.6"
        provider-name="TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
