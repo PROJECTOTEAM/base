@@ -16,7 +16,7 @@ UPDATECHECK    = 0
 APKFILE        = base64.b64decode('aHR0cDovL3Byb2plY3R4d2l6YXJkLjE2bWIuY29tL3Byb2plY3R4d2l6YXJkNC9zdWJtZW51cy9wcm9qZWN0eHdpemFyZGFway50eHQ=')
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = base64.b64decode('UHJvamVjdCBYIFlvdXR1YmU=')
-YOUTUBEFILE    = base64.b64decode('aHR0cDovL3Byb2plY3R4d2l6YXJkLjE2bWIuY29tL3Byb2plY3R4d2l6YXJkL3N1Yi95b3V0dWJlLnR4dA==')
+YOUTUBEFILE    = base64.b64decode('aHR0cDovL3Byb2plY3R4d2l6YXJkLjE2bWIuY29tL3Byb2plY3R4d2l6YXJkNC9zdWJtZW51cy95b3V0dWJlLnhtbA==')
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE      = base64.b64decode('aHR0cDovL3Byb2plY3R4d2l6YXJkLjE2bWIuY29tL3Byb2plY3R4d2l6YXJkNC9zdWJtZW51cy9hZGRvbnMudHh0')
 # Text File for advanced settings.  Leave as 'http://' to ignore
