@@ -1144,7 +1144,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="script.module.mobdro" name="Mobdro TV" version="0.1" provider-name="TEAM TVsupertuga">
+<addon id="script.module.mobdro" name="Mobdro TV" version="0.2" provider-name="TEAM TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
