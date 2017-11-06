@@ -1144,36 +1144,31 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="script.module.mikafilmes.addon"
-       name="MIKA FILMES"
-       version="2.1"
-       provider-name="MIKAEL ALVES">
+<addon id="script.module.mobdro" name="Mobdro TV" version="0.1" provider-name="TEAM TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.livestreamer" optional="true"/>
-
-   </requires>
+	<import addon="script.module.requests" />
+	<import addon="script.video.F4mProxy" />
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>all</provides>
+        <provides>all</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Add-on de Filmes</summary>
-    <description lang="en">Filmes Organizados Por Categorias</description>
-	<platform>all</platform>
-  </extension>
+		<summary lang="pt">live TV Online </summary>
+		<description lang="pt">[COLOR blue][B]
+
+	                        Welcome to TVsupertuga
+
+All these streams can be easily found over the internet...
+We do not have any server or broadcast any kind of signal...
+All these streams are the result of many hours
+of research over the Internet.
+CHANNELS REQUESTS OR MORE INFORMATION PLEASE
+SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
+		<website>https://www.facebook.com/TVsupertuga.PT/</website>
+	</extension>
 </addon>
 
 <addon id="script.module.myconnpy"
@@ -1423,6 +1418,37 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <email>tvsupertuga@gmail.com</email>
 		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
 		<website>https://www.facebook.com/TVsupertuga.PT/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.stallion.addon"
+       name="Mobdro TV"
+       version="0.5"
+       provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">TVsupertuga</summary>
+    <description lang="pt">TVsupertuga</description>
     <platform>all</platform>
   </extension>
 </addon>
