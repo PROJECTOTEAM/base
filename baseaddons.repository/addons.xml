@@ -1252,21 +1252,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="script.module.playlistLoader" name="Playlist Loader" version="0.1" provider-name="Team TVsupertuga">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="baseaddons.repository" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Playlist</summary>
-    <description lang="en">Playlist</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.module.programacao.addon"
        name="Programação"
        version="0.1"
