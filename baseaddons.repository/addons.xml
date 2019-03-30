@@ -1144,7 +1144,38 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<<<<<<< HEAD
+<addon id="script.module.mikafilmes.addon"
+       name="MIKA FILMES"
+       version="2.1"
+       provider-name="MIKAEL ALVES">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+
+   </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Add-on de Filmes</summary>
+    <description lang="en">Filmes Organizados Por Categorias</description>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.mobdro" name="Mobdro TV" version="0.2" provider-name="TEAM TVsupertuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1171,34 +1202,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 		<website>https://www.facebook.com/TVsupertuga.PT/</website>
 	</extension>
 </addon>
-=======
-<addon id="script.module.mobdro" name="Mobdro TV" version="0.2" provider-name="TEAM TVsupertuga">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-	<import addon="script.video.F4mProxy" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary lang="pt">live TV Online </summary>
-		<description lang="pt">[COLOR blue][B]
-
-	                        Welcome to TVsupertuga
-
-All these streams can be easily found over the internet...
-We do not have any server or broadcast any kind of signal...
-All these streams are the result of many hours
-of research over the Internet.
-CHANNELS REQUESTS OR MORE INFORMATION PLEASE
-SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
-		<platform>all</platform>
-		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
-		<website>https://www.facebook.com/TVsupertuga.PT/</website>
-	</extension>
-</addon>
->>>>>>> origin/master
 
 <addon id="script.module.myconnpy"
        name="MySQL Connector/Python"
@@ -1248,6 +1251,21 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.playlistLoader" name="Playlist Loader" version="0.1" provider-name="Team TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="baseaddons.repository" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Playlist</summary>
+    <description lang="en">Playlist</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1720,6 +1738,45 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
 		<website>https://www.facebook.com/TVsupertuga.PT/</website>
 	</extension>
+</addon>
+
+<addon id="script.module.worldiptv" name="worldiptv" version="0.3" provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">worldiptv  Dependency</summary>
+    <description lang="en_gb">worldiptv Dependency</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.playlistLoader" name="Playlist Loader" version="0.1" provider-name="Team TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="baseaddons.repository" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Playlist</summary>
+    <description lang="en">Playlist</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.trakt" name="Trakt" version="3.1.12" provider-name="Trakt.tv, Razzeee">
