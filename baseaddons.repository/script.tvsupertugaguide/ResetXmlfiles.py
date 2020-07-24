@@ -28,7 +28,7 @@ def deleteDB():
     try:
         xbmc.log("[script.tvsupertugaguide] Deleting guide data xml files...", xbmc.LOGDEBUG)
         dbPath1 = xbmc.translatePath(xbmcaddon.Addon(id = 'script.tvsupertugaguide').getAddonInfo('profile'))
-        dbPath1 = os.path.join(dbPath1, 'master.xml')
+        dbPath1 = os.path.join(dbPath1, 'main.xml')
 
         delete_file(dbPath1)
 

@@ -51,7 +51,7 @@ def categories():
      main.addDir('Sega Dreamcast','http://www.freeroms.com/sega_dreamcast.htm','lettersIndex',artwork + '/consoles/dreamcast.gif','Sega Dreamcast')
      main.addDir('Sega Game Gear','http://www.freeroms.com/game_gear.htm','lettersIndex',artwork + '/consoles/gamegear.gif','Sega Game Gear')
      main.addDir('Sega Genesis','http://www.freeroms.com/genesis.htm','lettersIndex',artwork + '/consoles/segagenesis.gif','Sega Genesis')
-     main.addDir('Sega Master System','http://www.freeroms.com/sega_master_system.htm','lettersIndex',artwork + '/consoles/segamastersystem.gif','Sega Master System')
+     main.addDir('Sega Main System','http://www.freeroms.com/sega_master_system.htm','lettersIndex',artwork + '/consoles/segamainsystem.gif','Sega Main System')
      main.addDir('Sony Playstation','http://www.freeroms.com/psx.htm','lettersIndex',artwork + '/consoles/playstation.gif','Sony Playstation')
 
      main.autoView('default')

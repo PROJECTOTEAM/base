@@ -39,7 +39,7 @@ def translatePath(path):
     possible XBMC installation on the machine. Attempting to do as
     little work as possible to enable this function to work seamlessly.
     '''
-    valid_dirs = ['xbmc', 'home', 'temp', 'masterprofile', 'profile',
+    valid_dirs = ['xbmc', 'home', 'temp', 'mainprofile', 'profile',
         'subtitles', 'userdata', 'database', 'thumbnails', 'recordings',
         'screenshots', 'musicplaylists', 'videoplaylists', 'cdrips', 'skin',
     ]

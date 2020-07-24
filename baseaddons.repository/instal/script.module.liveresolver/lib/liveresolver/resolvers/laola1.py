@@ -38,7 +38,7 @@ def resolve(url):
         chars=string.ascii_uppercase
         rand =  ''.join(random.choice(chars) for x in range(12))
         url = url.replace('/z/','/i/')
-        url = urlparse.urljoin(url, 'master.m3u8?hdnea=' + auth + '&g=' + rand + '&hdcore=3.8.0')
+        url = urlparse.urljoin(url, 'main.m3u8?hdnea=' + auth + '&g=' + rand + '&hdcore=3.8.0')
         return url
     except:
         return

@@ -120,7 +120,7 @@ for root, dirs, files in os.walk(databasePath,topdown=True):
 for root, dirs, files in os.walk(databasePath,topdown=True):
 	dirs[:] = [d for d in dirs]
 	for name in files:
-		if "master.xml" in name:
+		if "main.xml" in name:
 			try:
 				os.remove(os.path.join(root,name))
 			except: 

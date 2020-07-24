@@ -1074,8 +1074,8 @@ def reloadProfile(profile=None):
 		#	log("Profile: %s" % profile)
 		#	ebi('LoadProfile(%s)' % profile)
 		#else:
-		#ebi('Mastermode')
-		ebi('LoadProfile(Master user)')
+		#ebi('Mainmode')
+		ebi('LoadProfile(Main user)')
 	else: ebi('LoadProfile(%s)' % profile)
 
 def chunks(s, n):
@@ -2046,7 +2046,7 @@ def clearCache(over=None):
 						except Exception, e:
 							log("[Failed] wiped %s: %s" % (item, str(e)), xbmc.LOGNOTICE)
 					else:
-						textexe.execute("SELECT name FROM sqlite_master WHERE type = 'table'")
+						textexe.execute("SELECT name FROM sqlite_main WHERE type = 'table'")
 						for table in textexe.fetchall():
 							try:
 								textexe.execute("DELETE FROM %s" % table[0])
@@ -2311,7 +2311,7 @@ def purgeDb(name):
 			log("DB Connection Error: %s" % str(e), xbmc.LOGERROR)
 			return False
 	else: log('%s not found.' % name, xbmc.LOGERROR); return False
-	textexe.execute("SELECT name FROM sqlite_master WHERE type = 'table'")
+	textexe.execute("SELECT name FROM sqlite_main WHERE type = 'table'")
 	for table in textexe.fetchall():
 		if table[0] == 'version': 
 			log('Data from table `%s` skipped.' % table[0], xbmc.LOGDEBUG)
