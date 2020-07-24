@@ -109,7 +109,7 @@ class DatabaseSchemaException(sqlite3.DatabaseError):
 
 
 class Database(object):
-    SOURCE_DB = 'master.db'
+    SOURCE_DB = 'main.db'
     CHANNELS_PER_PAGE = 8
 
     def __init__(self):
